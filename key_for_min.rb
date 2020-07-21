@@ -13,21 +13,5 @@ def key_for_min_value(hash)
   end
   lowest_key
 end 
-end
 
 
-def key_for_min_value(name_hash)
-lowest_number = nil
-answer = nil
-  unless name_hash = {}
-    name_hash.each do |name, number|
-    if lowest_number == nil
-      answer = name
-      lowest_number = number
-    elsif lowest_number > number
-    answer = name
-    lowest_number = number
- end
- end
-answer
- end
