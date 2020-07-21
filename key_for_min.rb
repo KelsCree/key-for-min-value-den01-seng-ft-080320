@@ -14,7 +14,6 @@ answer =
    answer = name
    lowest_number = number
  end
+ answer
 end
-end
-answer
 end
