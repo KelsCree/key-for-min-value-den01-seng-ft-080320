@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
 lowest_number = nil
-answer = nil
+answer = 
   if name_hash = {}
     return nil
   else name_hash.each do |name, number|
@@ -16,5 +16,4 @@ answer = nil
  end
  end
  return answer
- end
  end
