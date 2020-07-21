@@ -6,7 +6,7 @@ lowest_number = nil
 answer =
   if name_hash = {}
     return nil
-  else name_hash.each do |name,number|
+  else name_hash.each do |name, number|
     if lowest_number == nil
       answer = name
       lowest_number = number
@@ -15,5 +15,6 @@ answer =
     lowest_number = number
  end
  end
- return answer
+ end
+ answer
  end
