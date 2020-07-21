@@ -13,5 +13,6 @@ answer = nil
     answer = name
     lowest_number = number
  end
- return answer
+ end
+answer
  end
