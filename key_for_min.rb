@@ -10,7 +10,7 @@ answer =
     if lowest_number == nil
       answer = name
       lowest_number = number
-    else if lowest_number > number
+    elsif lowest_number > number
     answer = name
     lowest_number = number
  end
