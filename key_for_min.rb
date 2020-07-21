@@ -15,6 +15,5 @@ answer =
     lowest_number = number
  end
  end
- end
  return answer
  end
