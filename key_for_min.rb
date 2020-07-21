@@ -6,11 +6,11 @@ lowest_number = nil
 answer =
   if name_hash = {}
     return nil
-else name_hash.each do |name,number|
- elsif lowest_number == nil
-  answer = name
-  lowest_number = number
- elsif lowest_number > number
+  else name_hash.each do |name,number|
+    if lowest_number == nil
+      answer = name
+      lowest_number = number
+  elsif lowest_number > number
    answer = name
    lowest_number = number
  end
